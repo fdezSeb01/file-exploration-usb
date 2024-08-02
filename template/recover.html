@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recover Files</title>
+    <link rel="stylesheet" href="../css/recover.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Recover Files</h1>
+        <div class="form-group">
+            <label for="disk-select">Select Disk:</label>
+            <select id="disk-select"></select>
+        </div>
+        <div class="form-group">
+            <label>File Types to Recover:</label>
+            <div class="toggle-buttons">
+                <button id="documents-toggle" class="toggle-btn">Documents</button>
+                <button id="videos-toggle" class="toggle-btn">Videos</button>
+                <button id="images-toggle" class="toggle-btn">Images</button>
+                <button id="all-toggle" class="toggle-btn">All</button>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="destination-folder">Destination Folder:</label>
+            <input type="text" id="destination-folder" readonly>
+        </div>
+        <button id="recover-button" class="btn recover-btn">Recover</button>
+        <button id="back-button" class="btn back-button">Back</button>
+    </div>
+    <script src="../js/recover.js"></script>
+</body>
+</html>

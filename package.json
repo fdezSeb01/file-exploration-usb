@@ -1,0 +1,32 @@
+{
+  "name": "final_upxtractor_port",
+  "version": "1.1.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "upxtractor",
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    }
+  },
+  "author": {
+    "name": "TeamIntegracion",
+    "email": "TeamIntegracion@example.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "electron-builder": "^24.13.3",
+    "electron": "^30.0.3"
+  }
+}
